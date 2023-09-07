@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*CSS RESET START*/
@@ -128,6 +129,25 @@ table {
 html {
   scroll-behavior: smooth;
 }
+.main_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px 24px;
+  border-radius: 58px;
+  background: #ff8902;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s;
+}
+.main_button:hover {
+  background-color: #c57b27;
+  transition: all 0.5s;
+}
 body {
   position: relative;
   width: 100%;
@@ -135,15 +155,11 @@ body {
   z-index: 2;
 }
 h1 {
-  font-family: 'Orbitron', sans-serif;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 63px;
-  color: var(--main-text-color);
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 110%;
+  text-transform: uppercase;
 }
-.mycontainer {
-  width: 100%;
-  max-width: 1116px;
-  margin: 0 auto;
-}
+
 /*COMMONT STYLES END*/
