@@ -178,14 +178,14 @@ function ball(name) {
 }
 
 // Balls
-var redball = new ball('redball');
-var greenball = new ball('greenball');
-var blueball = new ball('blueball');
+// var redball = new ball('redball');
+// var greenball = new ball('greenball');
+// var blueball = new ball('blueball');
 var wball = new ball('wball');
 var eball = new ball('eball');
 var rball = new ball('rball');
 var tball = new ball('tball');
-var balls = [redball, greenball, blueball, wball, eball, rball, tball];
+var balls = [wball, eball, rball, tball];
 
 // Random speed
 function randomSpeed(i) {
@@ -205,9 +205,9 @@ window.setInterval(function () {
 
 // Paint
 window.setInterval(function () {
-  redball.paint();
-  greenball.paint();
-  blueball.paint();
+  // redball.paint();
+  // greenball.paint();
+  // blueball.paint();
   wball.paint();
   eball.paint();
   rball.paint();
