@@ -185,8 +185,8 @@ var balls = [redball, greenball, blueball];
 
 // Random speed
 function randomSpeed(i) {
-  balls[i].speed.x = 100;
-  balls[i].speed.y = 100;
+  balls[i].speed.x = 150;
+  balls[i].speed.y = 150;
 }
 
 // Initial speed
@@ -197,7 +197,7 @@ for (var i = 0; i < balls.length; i++) {
 // Play
 window.setInterval(function () {
   randomSpeed(Math.floor(3 * Math.random()));
-}, 2000);
+}, 100000);
 
 // Paint
 window.setInterval(function () {
