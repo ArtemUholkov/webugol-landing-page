@@ -185,8 +185,8 @@ var balls = [redball, greenball, blueball];
 
 // Random speed
 function randomSpeed(i) {
-  balls[i].speed.x = 120;
-  balls[i].speed.y = 120;
+  balls[i].speed.x = 100;
+  balls[i].speed.y = 100;
 }
 
 // Initial speed
