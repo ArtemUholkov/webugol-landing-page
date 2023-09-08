@@ -14,8 +14,17 @@
   max-width: 1620px;
   height: calc(100% - 200px);
   display: flex;
-  justify-content: center;
-  padding-top: 15.6%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+.main_flag {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: -17px;
+  left: -10px;
 }
 .moving_block {
   position: absolute;
@@ -30,6 +39,10 @@
   line-height: normal;
   text-transform: uppercase;
   padding: 10px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
 }
 .place1 {
   /* position: absolute; */
@@ -45,10 +58,17 @@
   max-height: 50px;
 }
 .place3 {
-  /* bottom: 20px;
-  left: 50px; */
-  /* width: 225px;
-  max-height: 50px; */
+  width: 242px;
+}
+.place7 {
+  width: 272px;
+  height: 50px;
+}
+.place4 {
+  width: 284px;
+}
+.place5 {
+  width: 303px;
 }
 .running-line {
   position: absolute;
@@ -82,7 +102,7 @@
   background-color: #ff8902;
 }
 .righttoleft {
-  animation: righttoleft 20s infinite linear;
+  animation: righttoleft 25s infinite linear;
 }
 @keyframes righttoleft {
   from {
