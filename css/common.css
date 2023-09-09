@@ -78,6 +78,7 @@ td {
 body {
   line-height: 1;
   overflow-x: hidden;
+  overflow: hidden;
 }
 
 ol,
@@ -161,6 +162,7 @@ h1 {
   line-height: 110%;
   text-transform: uppercase;
   color: white;
+  max-width: 722px;
 }
 
 /*COMMONT STYLES END*/
