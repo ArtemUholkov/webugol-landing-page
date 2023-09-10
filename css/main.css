@@ -14,12 +14,13 @@
   height: 100%;
   margin: 0 auto;
   max-width: 1620px;
-  height: calc(100% - 200px);
+  height: calc(100%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 12%;
+  /* justify-content: space-around; */
+  margin-top: 100px;
+  margin-bottom: 64px;
   overflow: hidden;
 }
 .main_flag {
@@ -77,10 +78,11 @@
   position: relative;
   align-self: flex-end;
   width: 100vw;
-  height: 68px;
+  height: 68px; !important
   overflow: hidden;
   bottom: 0;
   flex: 1;
+  max-height: 68px;
 }
 .running-line {
   position: absolute;
@@ -118,6 +120,9 @@
   animation: righttoleft 25s infinite linear;
   overflow: hidden;
 }
+.main_picture_button{
+  margin-top: 5%;
+}
 @keyframes righttoleft {
   from {
     transform: translateX(0%);
@@ -125,4 +130,72 @@
   to {
     transform: translateX(-50%);
   }
+}
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    max-width: 700px;
+    margin-top: 15%;
+  }
+  .main_picture_button{
+    margin-top: 10%;
+  }
+}
+.moving_block {
+  height: 31px;
+  font-size: 12px;
+}
+.place4 {
+  width: 230px;
+}
+.place5 {
+  width: 250px;
+}
+.place3 {
+  width: 200px;
+}
+.place7 {
+  width: 230px;
+}
+
+
+@media (max-width: 800px) {
+  h1 {
+    /* max-width: 350px; */
+  }
+
+  .main_picture_button{
+    margin-top: 15%;
+  }
+}
+@media (max-width: 580px) {
+  h1 {
+    max-width: 350px;
+  
+  }
+  .running-line_text{
+    font-size: 16px;
+  line-height: 130%;
+  }
+  .running-line{
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .running-line_circle{
+    height: 14px;
+    width: 14px;
+  }
+}
+@media (max-height: 620px) {
+  h1{
+    font-size: 35px;
+    margin-top: 3%;
+  }
+  .main_picture_button{
+    margin-top: 3%;
+  }
+
 }
