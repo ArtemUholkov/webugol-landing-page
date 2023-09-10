@@ -156,6 +156,7 @@ body {
   z-index: 2;
 }
 h1 {
+  position: relative;
   text-align: center;
   font-size: 72px;
   font-weight: 700;
