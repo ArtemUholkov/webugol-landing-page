@@ -78,10 +78,10 @@
   position: relative;
   align-self: flex-end;
   width: 100vw;
-  height: 68px; !important
+  height: 100%;
   overflow: hidden;
   bottom: 0;
-  flex: 1;
+
   max-height: 68px;
 }
 .running-line {
@@ -120,7 +120,7 @@
   animation: righttoleft 25s infinite linear;
   overflow: hidden;
 }
-.main_picture_button{
+.main_picture_button {
   margin-top: 5%;
 }
 @keyframes righttoleft {
@@ -140,10 +140,10 @@
     max-width: 700px;
     margin-top: 15%;
   }
-  .main_picture_button{
+  .main_picture_button {
     margin-top: 10%;
   }
-  .main_flag{
+  .main_flag {
     top: -5px;
     left: -5px;
   }
@@ -166,34 +166,28 @@
   width: 230px;
 }
 
-
 @media (max-width: 800px) {
-  h1 {
-    /* max-width: 350px; */
-  }
-
-  .main_picture_button{
+  .main_picture_button {
     margin-top: 15%;
   }
 }
 @media (max-width: 580px) {
   h1 {
     max-width: 350px;
-  
   }
-  .running-line_text{
+  .running-line_text {
     font-size: 16px;
-  line-height: 130%;
+    line-height: 130%;
   }
-  .running-line{
+  .running-line {
     padding-bottom: 15px;
     padding-top: 15px;
   }
-  .running-line_circle{
+  .running-line_circle {
     height: 14px;
     width: 14px;
   }
-  .main_flag{
+  .main_flag {
     width: 16px;
     height: 16px;
     position: absolute;
@@ -202,22 +196,21 @@
   }
 }
 @media (max-height: 620px) {
-  h1{
+  h1 {
     font-size: 35px;
     margin-top: 3%;
   }
-  .main_picture_button{
+  .main_picture_button {
     margin-top: 3%;
   }
-
 }
 @media (max-height: 490px) {
-.nav_elem_mobile{
-  font-size: 16px;
-  padding: 6px;
-}
-.navbar_menu_mobile{
-  margin-top: 70px;
-  padding-top: 0;
-}
+  .nav_elem_mobile {
+    font-size: 16px;
+    padding: 6px;
+  }
+  .navbar_menu_mobile {
+    margin-top: 70px;
+    padding-top: 0;
+  }
 }
