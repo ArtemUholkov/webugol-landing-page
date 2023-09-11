@@ -1,18 +1,63 @@
 .numbers {
   background-color: var(--main-bg-color);
   height: 500px;
+  padding-top: 120px;
 }
 .number_wrapper {
-}
-.container {
+  padding-left: 150px;
 }
 .numbers_text {
+  max-width: 1153px;
+  color: var(--usual-decorations);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 55px;
 }
 .numbers_items_wrapper {
+  max-width: 1153px;
+  display: flex;
+  gap: 40px;
+}
+.numbers_items_line_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 34px;
+}
+.numbers_deco_line {
+  height: 127px;
+  width: 1px;
+  background: rgba(242, 245, 247, 0.63);
 }
 .numbers_item {
+  display: flex;
+  flex-direction: column;
 }
 .numbers_item_number {
+  color: var(--main-text-color);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: normal;
 }
 .numbers_item_subtext {
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (max-width: 1600px) {
+  .number_wrapper {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .number_wrapper {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .numbers_text {
+    font-size: 30px;
+  }
 }
