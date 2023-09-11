@@ -78,7 +78,7 @@ td {
 body {
   line-height: 1;
   overflow-x: hidden;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 
 ol,
@@ -119,10 +119,13 @@ table {
 
 /*COLOR VARIABLES START*/
 :root {
-  --main-bg-color: #21482e;
-  --sub-bg-color: #232426;
-  --usual-decorations: #eead44;
+  --main-bg-color: #111111;
+  --usual-decorations: #ff8902;
   --main-text-color: #ffffff;
+  --unusual-decor: #ff9c00;
+  --subcolor: rgba(255, 255, 255, 0.57);
+  --section--title-text: #6c01f6;
+  --section-subtitles-color: rgba(242, 245, 247, 0.63);
 }
 /*COLOR VARIABLES END*/
 
@@ -166,5 +169,8 @@ h1 {
   max-width: 722px;
   margin-top: 0%;
 }
-
+.container {
+  max-width: 1620px;
+  margin: 0 auto;
+}
 /*COMMONT STYLES END*/
