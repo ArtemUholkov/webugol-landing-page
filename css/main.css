@@ -103,7 +103,7 @@
   background-color: #ff8902;
 }
 .righttoleft {
-  animation: righttoleft 25s infinite linear;
+  /* animation: righttoleft 25s infinite linear; */
 }
 .main_picture_button {
   margin-top: 5%;
