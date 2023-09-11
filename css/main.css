@@ -16,7 +16,7 @@
   height: calc(100svh - 150px);
   width: 100vw;
 
-  z-index: 100;
+  z-index: 99;
 }
 .main_picture_content_wrapper {
   position: relative;
@@ -82,7 +82,7 @@
   justify-content: center;
   gap: 40px;
   padding: 18px 0px;
-  z-index: 100;
+  z-index: 99;
   position: fixed;
   bottom: 0;
 }
