@@ -317,4 +317,8 @@ header {
   .mob_button {
     display: flex;
   }
+  .fly_space {
+    top: 64px;
+    height: calc(100vh - 124px);
+  }
 }
