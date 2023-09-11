@@ -5,7 +5,7 @@
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   overflow: hidden;
   flex-direction: column;
 }
