@@ -148,7 +148,7 @@ header {
     position: absolute;
     right: 100%;
     width: 100%;
-    height: calc(100vh);
+    height: calc(100svh);
     z-index: 50;
     display: none;
     overflow: hidden;
@@ -319,6 +319,6 @@ header {
   }
   .fly_space {
     top: 64px;
-    height: calc(100vh - 124px);
+    height: calc(100svh - 124px);
   }
 }
