@@ -210,3 +210,13 @@
   }
 
 }
+@media (max-height: 490px) {
+.nav_elem_mobile{
+  font-size: 16px;
+  padding: 6px;
+}
+.navbar_menu_mobile{
+  margin-top: 70px;
+  padding-top: 0;
+}
+}
