@@ -124,6 +124,7 @@
   }
   .mob_text {
     display: block;
+    margin-bottom: 32px;
   }
   .numbers_item {
     width: 100%;
