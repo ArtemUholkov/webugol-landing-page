@@ -84,6 +84,14 @@
 .pad-fix {
   padding: 0;
 }
+.running-line_wrapper img {
+  transition: all 0.5s;
+  opacity: 0.7;
+}
+.running-line_wrapper img:hover {
+  transition: all 0.5s;
+  opacity: 1;
+}
 @keyframes lefttoright {
   from {
     transform: translateX(0%);
