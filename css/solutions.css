@@ -135,3 +135,35 @@
   line-height: 120%;
   text-align: left;
 }
+@media (max-width: 1000px) {
+  .solutions {
+    padding-top: 60px;
+  }
+  .solutions_slider_icon {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  .solutions_slider_title {
+    font-size: 18px;
+  }
+  .solutions_slider_text {
+    font-size: 14px;
+  }
+  .swiper-slide {
+    height: 300px;
+  }
+  .buttons_wrapper {
+    padding-right: 40px;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  .section_subtitle {
+    font-size: 32px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    height: 48px;
+    width: 48px;
+  }
+}
