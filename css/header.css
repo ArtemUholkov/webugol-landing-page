@@ -6,7 +6,6 @@ header {
   z-index: 100;
 }
 .header_wrapper {
-  background-color: transparent;
   height: 100%;
   max-width: 1620px;
   display: flex;
