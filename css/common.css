@@ -157,6 +157,7 @@ body {
   width: 100%;
   margin: 0 auto;
   z-index: 2;
+  background: #111;
 }
 h1 {
   position: relative;
@@ -172,5 +173,24 @@ h1 {
 .container {
   max-width: 1620px;
   margin: 0 auto;
+}
+h2 {
+  padding: 12px 32px;
+  border-radius: 33px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: var(--section-subtitles-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline;
+  margin-bottom: 28px;
+}
+.section_subtitle {
+  color: var(--section--title-text);
+  text-align: center;
+  font-size: 52px;
+  font-weight: 600;
 }
 /*COMMONT STYLES END*/

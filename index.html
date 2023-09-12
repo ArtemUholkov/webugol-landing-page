@@ -302,12 +302,89 @@
         </div>
       </div>
     </section>
-    <section
-      class="benefits"
-      id="advantages"
-      style="height: 500px; background-color: black"
-    ></section>
-    <section class="affiliate"></section>
+    <section class="solutions" id="solutions">
+      <div class="background_wrapper"></div>
+      <div class="section_title_wrapper">
+        <h2 class="section_ti">SOLUTIONS</h2>
+      </div>
+      <div class="section_subtitle_wrapper">
+        <p class="section_subtitle">Maximize your ROI</p>
+      </div>
+      <div class="swiper mySwiper" data-aos="fade-up">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide first_slide">
+            <div class="slide_content_wrapper">
+              <img src="img/solutions/google.svg" alt="" class="solutions_slider_icon" />
+              <div class="solutions_slider_text_wrapper">
+                <p class="solutions_slider_title">Google Ads</p>
+                <p class="solutions_slider_text">
+                  Be first, be visible! When your customers are looking for your products or
+                  services, do not be hard to find. Be visible with Google Ads!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_content_wrapper">
+              <img src="img/solutions/facebook.svg" alt="" class="solutions_slider_icon" />
+              <div class="solutions_slider_text_wrapper">
+                <p class="solutions_slider_title">Facebook Ads</p>
+                <p class="solutions_slider_text">
+                  Boost your Brand! Facebook is an ideal tool for leadgeneration but it’s also the
+                  most effective way to increase your brand awareness worldwide!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_content_wrapper">
+              <img src="img/solutions/website-seo.svg" alt="" class="solutions_slider_icon" />
+              <div class="solutions_slider_text_wrapper">
+                <p class="solutions_slider_title">Website SEO</p>
+                <p class="solutions_slider_text">
+                  The most profitable marketing tool! SEO is the practice of increasing traffic to
+                  your website from Google
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_content_wrapper">
+              <img src="img/solutions/local-seo.svg" alt="" class="solutions_slider_icon" />
+              <div class="solutions_slider_text_wrapper">
+                <p class="solutions_slider_title">Local SEO</p>
+                <p class="solutions_slider_text">
+                  Best digital marketing tool for SME! Show up on the Google Map when customers are
+                  searching you!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_content_wrapper">
+              <img src="img/solutions/email.svg" alt="" class="solutions_slider_icon" />
+              <div class="solutions_slider_text_wrapper">
+                <p class="solutions_slider_title">Email marketing</p>
+                <p class="solutions_slider_text">
+                  The highest ROI digital marketing tool! Increase your sales and brand awareness
+                  with eCommerce emailing funnels.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="swiper-slide last_slide">Slide 9</div> -->
+        </div>
+      </div>
+      <div class="buttons_wrapper">
+        <div class="swiper-button-prev">
+          <img src="img/sliders_buttons/right_white.png" alt="" />
+        </div>
+        <div class="swiper-button-next">
+          <img src="img/sliders_buttons/right_white.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="affiliate" style="height: 500px"></section>
     <section class="traffic"></section>
     <section class="testimonials" id="testimonials"></section>
     <section class="contacts" id="contacts"></section>
@@ -321,13 +398,46 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper('.mySwiper', {
+        slidesOffsetAfter: 100,
+        slidesOffsetBefore: 150,
+        slidesPerView: 4.7,
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
+          disabledClass: 'disabled_swiper_button',
         },
-        loop: true,
-        autoplay: {
-          delay: 3000,
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1.25,
+            spaceBetween: 0,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 20,
+            slidesOffsetAfter: 65,
+          },
+          900: {
+            slidesPerView: 2.6,
+            spaceBetween: 0,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 50,
+            slidesOffsetAfter: 75,
+          },
+          // when window width is >= 480px
+          1241: {
+            slidesPerView: 3.45,
+            spaceBetween: 0,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 100,
+            slidesOffsetAfter: 85,
+          },
+          // when window width is >= 640px
+          1630: {
+            slidesPerView: 4.58,
+            spaceBetween: 0,
+            slideToClickedSlide: true,
+            slidesOffsetBefore: 150,
+            slidesOffsetAfter: 100,
+          },
         },
       });
     </script>
