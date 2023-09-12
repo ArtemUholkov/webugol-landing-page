@@ -181,6 +181,7 @@
   }
   .numbers {
     padding-bottom: 60px;
+    padding-top: 60px;
   }
   .lefttoright {
     animation: lefttoright 7s infinite alternate linear;
