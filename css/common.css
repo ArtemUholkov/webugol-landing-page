@@ -172,7 +172,9 @@ h1 {
 }
 .container {
   max-width: 1620px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  padding-left: 150px;
+  padding-right: 150px;
 }
 h2 {
   padding: 12px 32px;
@@ -194,3 +196,9 @@ h2 {
   font-weight: 600;
 }
 /*COMMONT STYLES END*/
+@media (max-width: 1600px) {
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
