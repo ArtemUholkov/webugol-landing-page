@@ -87,6 +87,10 @@
 }
 .modal-dialog {
   max-width: 1000px;
+  overflow-anchor: none;
+}
+.modal-content {
+  overflow-anchor: none;
 }
 @media (max-width: 1725px) {
   .reviews_swiper_slide {
