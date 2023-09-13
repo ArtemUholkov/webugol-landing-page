@@ -30,8 +30,7 @@
   width: 60px;
   transition: all 1s;
 }
-.playbutton_wrapper:hover {
-}
+
 .reviews_swiper_wrapper {
   display: flex;
   justify-content: center;
