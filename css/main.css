@@ -13,8 +13,10 @@
   position: absolute;
   top: 100px;
   left: 0;
+  right: 0;
+  margin: 0 auto;
   height: calc(100svh - 150px);
-  width: 100vw;
+  width: 90vw;
 
   z-index: 98;
 }
