@@ -212,3 +212,6 @@ window.setInterval(function () {
   tball.paint();
 }, 10);
 console.log(document.querySelector('#redball'));
+$(document).ready(function () {
+  $('html,body').scrollTop(0);
+});
