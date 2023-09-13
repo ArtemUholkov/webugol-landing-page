@@ -83,6 +83,7 @@
 .modal_video {
   height: 500px;
   width: 1000px;
+  overflow-anchor: none;
 }
 .modal-dialog {
   max-width: 1000px;
