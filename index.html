@@ -780,23 +780,40 @@
           <p class="sub_content_text">Boost your digital<br />marketing!</p>
         </div>
         <div class="sub_form">
-          <form>
+          <form action="https://postmail.invotes.com/send" method="post" id="email_form">
             <div class="input-container">
               <input required type="text" />
               <label>Name</label>
             </div>
 
             <div class="input-container">
-              <input required type="text" />
+              <input required type="text" name="extra_phone_number" />
               <label>Email</label>
             </div>
             <div class="input-container">
-              <input required type="text" />
+              <input required type="text" name="extra_phone_number" />
               <label>Phone</label>
             </div>
             <div class="input-container">
-              <input type="submit" value="Get started" class="main_button form_button" />
+              <input
+                id="submit_form"
+                type="submit"
+                value="Get started"
+                class="main_button form_button"
+              />
             </div>
+            <input type="hidden" name="access_token" value="b6ptufawi5qmc6uw1hqngyoz" />
+
+            <input
+              type="hidden"
+              name="success_url"
+              value=".?message=Email+Successfully+Sent%21&isError=0"
+            />
+            <input
+              type="hidden"
+              name="error_url"
+              value=".?message=Email+could+not+be+sent.&isError=1"
+            />
           </form>
         </div>
         <img src="img/sub/logo.png" alt="" class="sub_logo" />
