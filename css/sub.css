@@ -128,6 +128,11 @@ input[type='text']:valid ~ label {
     font-size: 32px;
   }
 }
+@media (max-width: 1000px) {
+  .sub {
+    margin-top: 60px;
+  }
+}
 @media (max-width: 900px) {
   .sub_wrapper {
     flex-direction: column;

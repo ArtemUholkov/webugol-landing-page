@@ -1,3 +1,7 @@
+.reviews {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .reviews_image_wrapper {
   position: relative;
   width: 100%;
@@ -129,6 +133,12 @@
   }
   .modal-dialog {
     max-width: 700px;
+  }
+}
+@media (max-width: 1140px) {
+  .reviews {
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
 }
 @media (max-width: 756px) {
