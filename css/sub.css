@@ -135,7 +135,7 @@ input[type='email']:valid ~ label {
 
 .form_button {
   font-size: 18px;
-
+  border: 0;
   font-weight: 600;
   padding: 20px 40px;
 }
