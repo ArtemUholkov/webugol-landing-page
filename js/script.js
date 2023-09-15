@@ -53,17 +53,23 @@ function burgerHandler(e) {
   burger.classList.toggle('active');
 }
 
-function scrollToBrands() {
-  document.querySelector('#brands').scrollIntoView(true);
+function scrollToNumbers() {
+  document.querySelector('#numbers').scrollIntoView(true);
 }
-function scrollToAdvantages() {
-  document.querySelector('#advantages').scrollIntoView(true);
+function scrollToSolutions() {
+  document.querySelector('#solutions').scrollIntoView(true);
 }
-function scrollToTestimonials() {
-  document.querySelector('#testimonials').scrollIntoView(true);
+function scrollToProcess() {
+  document.querySelector('#process').scrollIntoView(true);
 }
-function scrollToContacts() {
-  document.querySelector('#contacts').scrollIntoView(true);
+function scrollToReviews() {
+  document.querySelector('#reviews').scrollIntoView(true);
+}
+function scrollToTeam() {
+  document.querySelector('#team').scrollIntoView(true);
+}
+function scrollToSub() {
+  document.querySelector('#sub').scrollIntoView(true);
 }
 let copiedText = document.querySelectorAll('#trythis');
 copiedText.forEach((elem) => elem.addEventListener('click', () => copyText(elem)));
@@ -211,10 +217,10 @@ window.setInterval(function () {
   rball.paint();
   tball.paint();
 }, 10);
-console.log(document.querySelector('#redball'));
-$(document).ready(function () {
-  $('html,body').scrollTop(0);
-});
+// console.log(document.querySelector('#redball'));
+// $(document).ready(function () {
+//   $('html,body').scrollTop(0);
+// });
 $(window).on('scroll', function () {
   if ($(window).scrollTop() > 50) {
     $('.header').addClass('active');
@@ -223,3 +229,9 @@ $(window).on('scroll', function () {
     $('.header').removeClass('active');
   }
 });
+
+function thankyou() {
+  setTimeout(() => {
+    window.location.href = 'thankyou.html';
+  }, 2000);
+}
