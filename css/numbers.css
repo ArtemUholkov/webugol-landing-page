@@ -80,10 +80,10 @@
   max-height: 117px;
 }
 .lefttoright {
-  animation: lefttoright 25s infinite alternate linear;
+  animation: lefttoright 50s infinite alternate linear;
 }
 .imgrighttoleft {
-  animation: imgrighttoleft 25s infinite alternate linear;
+  animation: imgrighttoleft 50s infinite alternate linear;
 }
 .pad-fix {
   padding: 0;
@@ -101,7 +101,7 @@
     transform: translateX(0%);
   }
   to {
-    transform: translateX(40%);
+    transform: translateX(160%);
   }
 }
 
@@ -110,10 +110,27 @@
     transform: translateX(0%);
   }
   to {
-    transform: translateX(-40%);
+    transform: translateX(-160%);
   }
 }
 
+@keyframes lefttorightmob {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(400%);
+  }
+}
+
+@keyframes imgrighttoleftmob {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-400%);
+  }
+}
 @media (max-width: 1600px) {
   .number_wrapper {
     padding-left: 100px;
@@ -200,10 +217,10 @@
     padding-top: 60px;
   }
   .lefttoright {
-    animation: lefttoright 7s infinite alternate linear;
+    animation: lefttorightmob 35s infinite alternate linear;
   }
   .imgrighttoleft {
-    animation: imgrighttoleft 7s infinite alternate linear;
+    animation: imgrighttoleftmob 35s infinite alternate linear;
   }
 }
 @media (max-width: 426px) {
