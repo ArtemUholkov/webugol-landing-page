@@ -118,10 +118,13 @@ header {
 }
 @media (max-width: 1200px) {
   .header_wrapper {
-    padding: 24px 30px 16px 30px;
+    padding: 24px 20px 16px 20px;
   }
 }
 @media (max-width: 1050px) {
+  .navbar {
+    padding: 0;
+  }
   .navbar_menu {
     display: none;
   }
@@ -143,12 +146,12 @@ header {
   }
 
   .burger_space {
-    padding: 10px 10px;
+    padding: 10px 0;
     cursor: pointer;
   }
 
   .logo_wrapper {
-    padding: 10px 10px;
+    padding: 10px 0px;
   }
 
   .popup {
