@@ -84,6 +84,55 @@ input[type='text']:valid ~ label {
   font-size: 18px;
   color: var(--subcolor);
 }
+
+input[type='tel'] {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  padding: 0 0 5px 0;
+  color: var(--main-text-color);
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px rgba(254, 254, 254, 0.6);
+  outline: none;
+  z-index: 20;
+}
+input[type='tel']:focus {
+  border-bottom: solid 1px white;
+}
+
+input[type='tel']:focus ~ label,
+input[type='tel']:valid ~ label {
+  top: -60px;
+  font-size: 18px;
+  color: var(--subcolor);
+}
+
+input[type='email'] {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  padding: 0 0 5px 0;
+  color: var(--main-text-color);
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 1px rgba(254, 254, 254, 0.6);
+  outline: none;
+  z-index: 20;
+}
+input[type='email']:focus {
+  border-bottom: solid 1px white;
+}
+
+input[type='email']:focus ~ label,
+input[type='email']:valid ~ label {
+  top: -60px;
+  font-size: 18px;
+  color: var(--subcolor);
+}
+
 .form_button {
   font-size: 18px;
 
@@ -157,6 +206,22 @@ input[type='text']:valid ~ label {
   }
   input[type='text']:focus ~ label,
   input[type='text']:valid ~ label {
+    font-size: 14px;
+  }
+
+  input[type='tel'] {
+    font-size: 14px;
+  }
+  input[type='tel']:focus ~ label,
+  input[type='tel']:valid ~ label {
+    font-size: 14px;
+  }
+
+  input[type='email'] {
+    font-size: 14px;
+  }
+  input[type='email']:focus ~ label,
+  input[type='email']:valid ~ label {
     font-size: 14px;
   }
   label {
