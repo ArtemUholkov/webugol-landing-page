@@ -55,10 +55,13 @@
 .img_running_line {
   gap: 83px;
 }
-
-.corechair {
+.main_corechair {
   max-width: 163px;
   max-height: 129px;
+}
+.corechair {
+  max-width: 190px;
+  max-height: 190px;
 }
 .lhk {
   max-width: 258px;
@@ -165,9 +168,13 @@
     align-items: center;
   }
 
+  .main_corechair {
+    max-width: 103px;
+    max-height: 82px;
+  }
   .corechair {
-    width: 103.687px;
-    height: 81.772px;
+    max-width: 150px;
+    max-height: 150px;
   }
   .lhk {
     width: 164.002px;
