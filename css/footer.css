@@ -38,6 +38,11 @@
 .footer_logo_links {
   height: 48px;
   width: 48px;
+  transition: all 0.3s;
+}
+.footer_logo_links:hover {
+  opacity: 0.6;
+  transition: all 0.3s;
 }
 .footer_partners_wrapper {
   display: flex;
@@ -61,6 +66,15 @@
 }
 .right_pair {
   align-items: flex-end;
+}
+.footer_phone {
+  transition: all 0.3s;
+  width: auto;
+}
+.footer_phone:hover {
+  color: rgb(189, 189, 189);
+  text-decoration: none;
+  transition: all 0.3s;
 }
 @media (max-width: 1500px) {
   .footer_wrapper {
