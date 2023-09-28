@@ -9,15 +9,15 @@
   border-radius: 36px;
 }
 .reviews_image_wrapper:hover {
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .reviews_image_wrapper:hover .reviews_video_image {
-  cursor: pointer;
+  /* cursor: pointer; */
   transform: scale(1.1);
   transition: all 1s;
 }
 .reviews_image_wrapper:hover .playbutton_wrapper {
-  cursor: pointer;
+  /* cursor: pointer; */
   opacity: 0.7;
   transition: all 1s;
 }
