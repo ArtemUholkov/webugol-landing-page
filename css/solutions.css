@@ -39,7 +39,7 @@
   margin-bottom: 56px;
 }
 .swiper-wrapper {
-  gap: 12px;
+  gap: 0px;
 }
 .swiper-srapper:first-child {
   padding-left: 150px;
